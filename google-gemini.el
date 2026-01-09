@@ -74,6 +74,11 @@ auth-source is provided for convenience.")
   :type 'string
   :group 'google-gemini)
 
+(defcustom google-gemini-model "gemini-pro"
+  "The Google Gemini Model to use."
+  :type 'string
+  :group 'google-gemini)
+
 (defcustom google-gemini-parameters '()
   "The parameters for the Google Gemini request."
   :type 'list

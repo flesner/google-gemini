@@ -82,7 +82,7 @@ value by passing it in."
 (defun google-gemini-model-info ()
   "Print a model information."
   (interactive)
-  (if-let ((model (read-string "Name of the model: " "gemini-pro")))
+  (if-let ((model (read-string "Name of the model: " google-gemini-model)))
       (google-gemini-model model (lambda (data) (message "%s" data)))
     (user-error "Abort, cancel get model info operation")))
 

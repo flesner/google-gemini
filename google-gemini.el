@@ -74,7 +74,7 @@ auth-source is provided for convenience.")
   :type 'string
   :group 'google-gemini)
 
-(defcustom gemini-model "gemini-pro-latest"
+(defcustom google-gemini-model-name "gemini-pro-latest"
   "The Google Gemini Model to use."
   :type 'string
   :group 'google-gemini)

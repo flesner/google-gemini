@@ -33,7 +33,7 @@
                                        (parameters google-gemini-parameters)
                                        (content-type "application/json")
                                        (key google-gemini-key)
-                                       (model gemini-model))
+                                       (model google-gemini-model-name))
   "Send count tokens request.
 
 Arguments PARAMETERS, CONTENT-TYPE, and KEY are global options;

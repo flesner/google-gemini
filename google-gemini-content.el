@@ -35,7 +35,7 @@
                                            (parameters google-gemini-parameters)
                                            (content-type "application/json")
                                            (key google-gemini-key)
-                                           (model gemini-model)
+                                           (model google-gemini-model-name)
                                            (category "HARM_CATEGORY_DANGEROUS_CONTENT")
                                            (threshold "BLOCK_ONLY_HIGH")
                                            stop-sequences

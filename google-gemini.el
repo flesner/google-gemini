@@ -79,6 +79,14 @@ auth-source is provided for convenience.")
   :type 'string
   :group 'google-gemini)
 
+(defcustom google-gemini-temperature 1.0
+  "The temperature setting for the Google Gemini API.
+Controls the randomness of the generated text. Higher values (e.g., 1.0)
+make the output more creative and diverse, while lower values (e.g., 0.2)
+make it more deterministic and focused."
+  :type 'float
+  :group 'google-gemini)
+
 (defcustom google-gemini-parameters '()
   "The parameters for the Google Gemini request."
   :type 'list

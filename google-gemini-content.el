@@ -39,7 +39,7 @@
                                            (category "HARM_CATEGORY_DANGEROUS_CONTENT")
                                            (threshold "BLOCK_ONLY_HIGH")
                                            stop-sequences
-                                           temperature
+                                           (temperature google-gemini-temperature)
                                            max-output-tokens
                                            top-p
                                            top-k)
